@@ -84,7 +84,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 dl, dt, dd, ol, ul, li { list-style: none; margin: 0; }
 .clear { clear: both; }
-a, a:hover { text-decoration: none; }
+a, a:hover { text-decoration: underline; }
 /*------------------------------------Reset End-----------------------------------*/
 
 body { 
@@ -104,7 +104,7 @@ body {
 .container { max-width: 1845px;   padding: 0 10px; margin: 0 auto; position: relative; }
 /*img { max-width: 100%; }*/
 /* all */
-img { max-width: 100%; display: inline-block; }
+img { max-width: 60%; display: inline-block; }
 input::-webkit-input-placeholder {
 color: #999999;
 opacity:1;
@@ -141,23 +141,25 @@ a, input[type="submit"] { -webkit-transition: all 0.4s ease-in-out; -moz-transit
 /*========================== Home Start ======================*/
 
 .topnav{ width:100%; background:#fff; padding:22px 0 22px 0;}
-.topnav .logo{ float:left;}
-.topnav .navigation{ max-width:525px; width:100%; position:absolute; left:0; right:0; margin:auto;  margin-top:18px; text-align:center;}
-.topnav .navigation li{ display:inline-block;}
-.topnav .navigation li a{ font-size:16px; color:#19404b; font-family: 'GothamRounded-Medium'; text-transform:uppercase; line-height:16px; display:inline-block; padding:0px 25px;}
+.topnav .logo{ float:left; }
+.topnav .navigation{ max-width:725px; width:100%; position:absolute; left:0; right:0; margin:auto; text-align:right;}
+.topnav .navigation li{ display:inline-block; ;}
+.topnav .navigation span{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; margin-right: 16px;}
+.topnav .navigation li a{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; padding:10px 0px;}
 .topnav .navigation li a:hover{ text-decoration:underline;}
 
-.topnav .login_reg{ float:right; width:276px; border:3px solid #f36f21; border-radius:4px;}
+.topnav .login_reg{ float:right; width:auto; }
 .topnav .login_reg li{ float:left;}
-.topnav .login_reg li a{ font-size:16px; color:#f36f21; font-family: 'Gotham-Medium'; line-height:16px; text-transform:uppercase; display:inline-block; text-align:center; padding:16px 0;}
-.topnav .login_reg li a.login{ width:135px;}
-.topnav .login_reg li a.register{ width:135px;}
-.topnav .login_reg li a:hover, .topnav .login_reg li a.active{background:#f36f21; color:#fff;}
+.topnav .login_reg li a{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border:1px solid #70B8FF; text-decoration: none;}
+.topnav .login_reg li a.login{ width:70px; margin: 0 10px 0 0}
+.topnav .login_reg li a.register{ width:100px;}
+.topnav .login_reg li a.active{background:#70B8FF; color:#fff;}
+.topnav .login_reg li a:hover{background:#C2E0FF; }
 
 
 .mainbanner{ width:100%; background:#0d2126 url(../images/mainbg.png) no-repeat; background-position:top center;}
 .mainbanner .bannercontent{ max-width:927px; width:100%; margin:0 auto; padding:270px 0 295px 0; text-align:center; position:relative; }
-.mainbanner .bannercontent h2{ font-size:28px; color:#ffffff;  font-family: 'ProximaNovaSoft-Regular';line-height:28px; text-transform:uppercase; padding-bottom:12px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
+.mainbanner .bannercontent h2{ font-size:22px; color:#ffffff;  font-family: 'Gotham-Medium';line-height:28px; padding-bottom:12px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
 .mainbanner .bannercontent p{ font-size:20px; color:#ffffff; font-family: 'ProximaNovaSoft-Regular'; line-height:20px; padding-top:6px; padding-bottom:72px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
 .mainbanner .bannercontent .bannerbtn{ width:54px; height:65px; background:url(../images/bannerbtn.png) no-repeat; background-position:center center; position:absolute; left:0; right:0; margin:auto; bottom:87px; cursor:pointer;}
 

@@ -151,20 +151,20 @@ a, input[type="submit"] { -webkit-transition: all 0.4s ease-in-out; -moz-transit
 .topnav .navigation .extra_nav li {font-size:10px; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; padding:10px 0px; }
 .topnav .navigation .extra_nav li a{color:#19404b;margin-right: 22px;}
 .topnav .navigation .extra_nav span{ font-size:10px; color:#19404b; font-family: 'Gotham-Medium'; margin-right: 10px;}
-
+.topnav .navigation .extra_nav i{color:#f36f21;}
 
 .topnav .login_reg{ float:right; width:auto; }
 .topnav .login_reg li{ float:left;}
-.topnav .login_reg li a{ font-size:12px; color:#19404b; font-family: 'Open Sans', sans-serif; font-weight: bold;line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border:1px solid #70B8FF; text-decoration: none; border-radius:4px;}
-.topnav .login_reg li a.login{ width:70px; margin: 0 10px 0 0}
-.topnav .login_reg li a.register{ width:100px;}
+.topnav .login_reg li a{ font-size:12px; font-family: 'Open Sans', sans-serif; font-weight: bold;line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border:1px solid #70B8FF; text-decoration: none; border-radius:4px;}
+.topnav .login_reg li a.login{ width:70px; margin: 0 10px 0 0; color:#19404b; }
+.topnav .login_reg li a.register{ width:100px; color:#ffffff; }
 .topnav .login_reg li a.active{background:#70B8FF; }
 .topnav .login_reg li a:hover{background:#2E8AE6;}
 
 .mainbanner{ width:100%; background:#0d2126 url(../images/mainbg.png) no-repeat; background-position:top center;}
 .mainbanner .bannercontent{ max-width:927px; width:100%; margin:0 auto; padding:80px 0 95px 0; text-align:center; position:relative; font-family: "Roboto Slab",Helvetica,Arial,Verdana,sans-serif; }
 .mainbanner .bannercontent h2{ font-size:26px; color:#ffffff;  line-height:28px; padding-bottom:12px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
-.mainbanner .bannercontent p{ font-size:20px; color:#ffffff; line-height:20px; padding-top:6px; padding-bottom:72px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
+.mainbanner .bannercontent p{ font-size:18px; color:#ffffff; line-height:20px; padding-top:6px; padding-bottom:72px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
 
 
 /*.mainbanner .bannercontent .bannerbtn{ width:54px; height:65px; background:url(../images/bannerbtn.png) no-repeat; background-position:center center; left:0; right:0; margin:auto; bottom:87px; cursor:pointer;}
@@ -179,10 +179,10 @@ a, input[type="submit"] { -webkit-transition: all 0.4s ease-in-out; -moz-transit
 .bannerbtn .banner_actions li a.video{font-size:14px; font-weight: bold; width:auto; margin: 0 10px 0 0}
 .bannerbtn .banner_actions li a.trial:hover{background:#2E8AE6; }
 
-.request_demo{ width:100%; background:#f36f21; padding:41px 0 45px 0;}
-.innercontainer{ max-width:880px; width:100%; margin:0 auto;}
-.request_demo p{ max-width:463px; width:100%; float:left; font-size:20px; color:#fefefe; line-height:28px; padding-top:5px;}
-.request_demo a{ float:right; font-size:16px; color:#fff; line-height:16px; text-transform:uppercase; border:3px solid #fff; border-radius:4px; padding:18px 56px 19px 56px; display:inline-block;   letter-spacing: 1.5px;}
+.request_demo{ width:100%; background:#5788B8; padding:41px 0 45px 0;}
+.innercontainer{ max-width:640px; width:100%; margin:0 auto;}
+.request_demo p{ width:100%; text-align: center; font-size:18px; color:#fefefe; line-height:28px; padding-top:5px;}
+.request_demo a{ float:right; font-size:18px; color:#fff; line-height:16px; text-transform:uppercase; border:3px solid #fff; border-radius:4px; padding:18px 56px 19px 56px; display:inline-block;   letter-spacing: 1.5px;}
 .request_demo a:hover{ background:#fff; border:3px solid #f36f21; color:#f36f21; border-radius:4px;}
 
 
@@ -391,19 +391,20 @@ a, input[type="submit"] { -webkit-transition: all 0.4s ease-in-out; -moz-transit
 .venue_nav ul li a{ font-size:16px; color:#fff; font-family: 'Gotham-Medium'; line-height:16px; text-transform:uppercase; padding:12px 35px 12px 35px; border:3px solid #fff; border-radius:4px; display:inline-block;}
 .venue_nav ul li a:hover, .venue_nav ul li a.active{ background:#fff; color:#f36d1e;}
 
-.overviews{ width:100%; background:#fff; padding:133px 0 154px 0;}
+.overviews{ width:100%; background:#fff; padding:60px 0 154px 0;}
 .overviews .row{ margin-left:-50px; margin-right:-50px;}
-.overviews .col3{ width:33.33%; float:left; padding-left:50px; padding-right:50px;}
+.overviews .col3{ width:33.33%; float:left; padding-left:50px; padding-right:50px; }
 .overviews .overviewbox{ text-align:center;}
-.overviewbox .hexagon{ width:153px; height:172px;  margin:0 auto; margin-bottom:55px;}
-.overviewbox .hexagon1{background:url(../images/icon_3.png) no-repeat; background-position:top center;}
-.overviewbox .hexagon2{background:url(../images/icon_2.png) no-repeat; background-position:top center;}
-.overviewbox .hexagon3{background:url(../images/icon_1.png) no-repeat; background-position:top center;}
-.overviewbox h2{ font-size:28px; color:#f36f21; text-transform:uppercase; line-height:31px; margin-bottom:30px;}
-.overviewbox p{ font-size:20px; color:#19404b; line-height:30px;}
+.overviewbox .hexagon{ width:77px; height:76px;  margin:0 auto; margin-bottom:14px;}
+.overviewbox .hexagon1{background:url(../images/icon_3.png) no-repeat; background-size: 80%; background-position:top center;}
+.overviewbox .hexagon2{background:url(../images/icon_2.png) no-repeat;  background-size: 80%; background-position:top center;}
+.overviewbox .hexagon3{background:url(../images/icon_1.png) no-repeat;  background-size: 80%;  background-position:top center;}
+.overviewbox h2{ font-size:18px; color:#19404b; text-transform:uppercase; font-weight: 500; line-height:28px; margin-bottom:24px;}
+.overviewbox p{ font-size:16px; color:#19404b; line-height:26px;}
 
-
-
+.learnmore {text-align: center; }
+.learnmore a{color: #19404b; font-family: 'Gotham-Medium', sans-serif; font-size: 16px;line-height:16px; display:inline-block; margin: auto; padding: 50px 0px;  border-radius:4px;}
+.learnmore span{color:#f36f21; padding-right: 5px;}
 
 .online_plateform{ width:100%; background:#0d2126; padding:116px 0;}
 .online_plateform .row{ margin-left:-40px; margin-right:-40px;}

@@ -92,9 +92,8 @@ body {
   background: #fff; 
   font-size: 16px; 
   color: #000;  
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto Slab",Helvetica,Arial,Verdana,sans-serif;
   font-weight: 400;
-  /*font-family: 'ProximaNovaSoft-Regular';*/
   margin: 0; 
   padding: 0; 
   direction: ltr; 
@@ -142,32 +141,43 @@ a, input[type="submit"] { -webkit-transition: all 0.4s ease-in-out; -moz-transit
 
 .topnav{ width:100%; background:#fff; padding:22px 0 22px 0;}
 .topnav .logo{ float:left; }
-.topnav .navigation{ max-width:725px; width:100%; position:absolute; left:0; right:0; margin:auto; text-align:right;}
-.topnav .navigation li{ display:inline-block; ;}
-.topnav .navigation span{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; margin-right: 16px;}
-.topnav .navigation li a{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; padding:10px 0px;}
-.topnav .navigation li a:hover{ text-decoration:underline;}
+
+.topnav .navigation{ max-width:830px; width:100%; position:absolute; left:0; right:0; margin:auto; }
+.topnav .navigation .main_nav { display:inline-block; text-align:left;}
+.topnav .navigation .main_nav li {font-size:14px; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; text-align:center; padding:10px 0px; }
+.topnav .navigation .main_nav li a{color:#19404b; margin: 0 20px 0 0}
+
+.topnav .navigation .extra_nav {display:inline-block; float: right; }
+.topnav .navigation .extra_nav li {font-size:10px; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; padding:10px 0px; }
+.topnav .navigation .extra_nav li a{color:#19404b;margin-right: 22px;}
+.topnav .navigation .extra_nav span{ font-size:10px; color:#19404b; font-family: 'Gotham-Medium'; margin-right: 10px;}
+
 
 .topnav .login_reg{ float:right; width:auto; }
 .topnav .login_reg li{ float:left;}
-.topnav .login_reg li a{ font-size:12px; color:#19404b; font-family: 'Gotham-Medium'; line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border:1px solid #70B8FF; text-decoration: none;}
+.topnav .login_reg li a{ font-size:12px; color:#19404b; font-family: 'Open Sans', sans-serif; font-weight: bold;line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border:1px solid #70B8FF; text-decoration: none; border-radius:4px;}
 .topnav .login_reg li a.login{ width:70px; margin: 0 10px 0 0}
 .topnav .login_reg li a.register{ width:100px;}
-.topnav .login_reg li a.active{background:#70B8FF; color:#fff;}
-.topnav .login_reg li a:hover{background:#C2E0FF; }
-
+.topnav .login_reg li a.active{background:#70B8FF; }
+.topnav .login_reg li a:hover{background:#2E8AE6;}
 
 .mainbanner{ width:100%; background:#0d2126 url(../images/mainbg.png) no-repeat; background-position:top center;}
-.mainbanner .bannercontent{ max-width:927px; width:100%; margin:0 auto; padding:270px 0 295px 0; text-align:center; position:relative; }
-.mainbanner .bannercontent h2{ font-size:22px; color:#ffffff;  font-family: 'Gotham-Medium';line-height:28px; padding-bottom:12px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
-.mainbanner .bannercontent p{ font-size:20px; color:#ffffff; font-family: 'ProximaNovaSoft-Regular'; line-height:20px; padding-top:6px; padding-bottom:72px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
-.mainbanner .bannercontent .bannerbtn{ width:54px; height:65px; background:url(../images/bannerbtn.png) no-repeat; background-position:center center; position:absolute; left:0; right:0; margin:auto; bottom:87px; cursor:pointer;}
+.mainbanner .bannercontent{ max-width:927px; width:100%; margin:0 auto; padding:80px 0 95px 0; text-align:center; position:relative; font-family: "Roboto Slab",Helvetica,Arial,Verdana,sans-serif; }
+.mainbanner .bannercontent h2{ font-size:26px; color:#ffffff;  line-height:28px; padding-bottom:12px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
+.mainbanner .bannercontent p{ font-size:20px; color:#ffffff; line-height:20px; padding-top:6px; padding-bottom:72px; text-shadow: 0px 4px 18px rgba(0, 0, 0, 1);}
 
+
+/*.mainbanner .bannercontent .bannerbtn{ width:54px; height:65px; background:url(../images/bannerbtn.png) no-repeat; background-position:center center; left:0; right:0; margin:auto; bottom:87px; cursor:pointer;}
+*/
 .mainbanner .bannerlinks li:first-child{ width:458px;}
 .mainbanner .bannerlinks li:last-child{ width:428px;}
 .mainbanner .bannerlinks a{background:rgba(243, 111, 33, 0.16);  border:3px solid #f36f21; font-size:28px; color:#ffffff; line-height:33px; border-radius:8px; text-transform:uppercase; padding:59px 70px 58px 70px; display:inline-block;}
 .mainbanner .bannerlinks a:hover,  .mainbanner .bannerlinks a.active{ background:#f36f21;}
 
+.bannerbtn .banner_actions li a{ color:#fff; font-family: 'Open Sans', sans-serif; line-height:16px; display:inline-block; text-align:center; padding:10px 0px; border-radius:4px;}
+.bannerbtn .banner_actions li a.trial{font-size:18px; width:auto; margin: 8px; padding: 20px 20px;background:#70B8FF;border:1px solid #70B8FF; text-decoration: none;}
+.bannerbtn .banner_actions li a.video{font-size:14px; font-weight: bold; width:auto; margin: 0 10px 0 0}
+.bannerbtn .banner_actions li a.trial:hover{background:#2E8AE6; }
 
 .request_demo{ width:100%; background:#f36f21; padding:41px 0 45px 0;}
 .innercontainer{ max-width:880px; width:100%; margin:0 auto;}
